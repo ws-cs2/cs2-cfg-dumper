@@ -1,13 +1,13 @@
 # cs2-surf-cfg-dumper
 
 ## Introduction
-This project is designed for CS2 server owners, mappers and plugin developers. The tool analyzes workshop maps downloaded on your computer, focusing on identifying `<mapname>.cfg` files and any `point_serverentities` and `logic_autos` within them.
+This project is designed for CS2 server owners, mappers and plugin developers. The tool analyzes workshop maps downloaded on your computer, focusing on identifying `<mapname>.cfg` files and any `point_servercommand` and `logic_autos` within them.
 
 ## Background
 In Source2 engine for CS2, there are two methods that maps may executing commands on a server:
 
 1. **Map CFG**: Executed on map load.
-2. **Point_ServerCommand and Logic_Auto**: Typically executed on round start.
+2. **point_servercommand and logic_auto**: Typically executed on round start.
 
 Unfortunately, these execution methods pose challenges for server owners, as there's no native way to disable them. This often leads to issues, especially when maps set `sv_cheats` or alter movement configurations, which can disrupt the surf game mode.
 

@@ -1,4 +1,4 @@
-# cs2-cfg-dumper
+# cs2-surf-cfg-dumper
 
 ## Introduction
 This project is designed for CS2 server owners, mappers and plugin developers. The tool analyzes workshop maps downloaded on your computer, focusing on identifying `<mapname>.cfg` files and any `point_serverentities` and `logic_autos` within them.

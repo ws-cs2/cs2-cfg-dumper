@@ -1,0 +1,31 @@
+MAP surf_evo
+--------------------
+CFG
+sv_falldamage_scale 0;
+sv_accelerate 10;
+sv_airaccelerate 150;
+sv_gravity 800;
+sv_maxvelocity 3500;
+sv_enablebunnyhopping 1;
+sv_autobunnyhopping 1;
+sv_staminamax 0;
+sv_staminajumpcost 0;
+sv_staminalandcost 0;
+sv_staminarecoveryrate 0;
+
+
+mp_freezetime 0;
+mp_round_restart_delay 0;
+mp_solid_teammates 0;
+mp_autoteambalance 1;
+mp_respawn_on_death_ct 1;
+mp_respawn_on_death_t 1;
+mp_roundtime 99999;
+mp_startmoney 1337;
+mp_buytime 99999;
+--------------------
+HAS POINT_SERVERCOMMAND: False
+--------------------
+LOGIC_AUTO
+
+--------------------

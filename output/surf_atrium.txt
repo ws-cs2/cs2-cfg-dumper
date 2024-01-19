@@ -1,0 +1,30 @@
+MAP surf_atrium
+--------------------
+CFG
+sv_cheats 1;
+sv_falldamage_scale 0;
+sv_accelerate 10;
+sv_airaccelerate 850;
+sv_gravity 850.0;
+sv_enablebunnyhopping 1;
+sv_autobunnyhopping 1;
+sv_staminamax 0;
+sv_staminajumpcost 0;
+sv_staminalandcost 0;
+sv_staminarecoveryrate 0;
+mp_respawn_on_death_ct 1;
+mp_respawn_on_death_t 1;
+mp_roundtime 60;
+mp_round_restart_delay 0;
+mp_team_intro_time 0;
+mp_freezetime 0;
+cl_firstperson_legs 0;
+mp_drop_knife_enable 1;
+mp_warmup_end;
+mp_restartgame 1;
+--------------------
+HAS POINT_SERVERCOMMAND: False
+--------------------
+LOGIC_AUTO
+
+--------------------

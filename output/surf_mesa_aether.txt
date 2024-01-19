@@ -1,0 +1,28 @@
+MAP surf_mesa_aether
+--------------------
+CFG
+sv_airaccelerate 150
+sv_enablebunnyhopping 1
+sv_autobunnyhopping 1
+sv_falldamage_scale 0
+sv_staminajumpcost 0
+sv_staminalandcost 0
+sv_disable_radar 1
+
+mp_roundtime 60
+mp_round_restart_delay 0
+mp_freezetime 0
+mp_team_intro_time 0
+mp_drop_knife_enable 1
+mp_warmup_end
+mp_warmuptime 0
+bot_quota 0
+
+--------------------
+HAS POINT_SERVERCOMMAND: False
+--------------------
+LOGIC_AUTO
+@OnMapSpawn TurnOn [PR#]sparks
+@OnMapSpawn StartSpark [PR#]sparks
+
+--------------------

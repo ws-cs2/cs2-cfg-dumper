@@ -1,0 +1,32 @@
+MAP surf_boreas
+--------------------
+CFG
+sv_airaccelerate 150
+sv_enablebunnyhopping 1
+sv_autobunnyhopping 1
+sv_falldamage_scale 0
+sv_staminajumpcost 0
+sv_staminalandcost 0
+sv_disable_radar 1
+
+// surf_boreas is designed for 5000 maxvel
+// but as of 7/1/2024, CS2 is still hard capped to 4096 maxvel
+// I'm setting 5000 anyway in the event that valve changes the velocity cap later
+sv_maxvelocity 5000
+
+mp_roundtime 60
+mp_round_restart_delay 0
+mp_freezetime 0
+mp_team_intro_time 0
+mp_drop_knife_enable 1
+mp_warmup_end
+mp_warmuptime 0
+bot_quota 0
+
+--------------------
+HAS POINT_SERVERCOMMAND: True
+--------------------
+LOGIC_AUTO
+@OnMapSpawn SetPosition momentary_rot_button 1
+
+--------------------

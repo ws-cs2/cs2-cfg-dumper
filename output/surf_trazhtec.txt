@@ -1,0 +1,10 @@
+MAP surf_trazhtec
+--------------------
+CFG
+// convars to exec on map load
+--------------------
+HAS POINT_SERVERCOMMAND: False
+--------------------
+LOGIC_AUTO
+
+--------------------

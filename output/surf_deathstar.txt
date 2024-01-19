@@ -1,0 +1,24 @@
+MAP surf_deathstar
+--------------------
+CFG
+// convars to exec on map load
+--------------------
+HAS POINT_SERVERCOMMAND: True
+--------------------
+LOGIC_AUTO
+@OnMapSpawn Command [PR#]Commands sv_airaccelerate 150
+@OnMapSpawn Command [PR#]Commands sv_enablebunnyhopping 1
+@OnMapSpawn Command [PR#]Commands sv_autobunnyhopping 1
+@OnMapSpawn Command [PR#]Commands sv_falldamage_scale 0
+@OnMapSpawn Command [PR#]Commands sv_staminajumpcost 0
+@OnMapSpawn Command [PR#]Commands sv_staminalandcost 0
+@OnMapSpawn Command [PR#]Commands mp_roundtime 60
+@OnMapSpawn Command [PR#]Commands mp_round_restart_delay 0
+@OnMapSpawn Command [PR#]Commands mp_freezetime 0
+@OnMapSpawn Command [PR#]Commands mp_team_intro_time 0
+@OnMapSpawn Command [PR#]Commands mp_drop_knife_enable 1
+@OnMapSpawn Command [PR#]Commands mp_warmup_end
+@OnMapSpawn Command [PR#]Commands mp_warmuptime 0
+@OnMapSpawn Command [PR#]Commands bot_quota 0
+
+--------------------

@@ -4,7 +4,7 @@
 This project is designed for CS2 server owners, mappers and plugin developers. The tool analyzes workshop maps downloaded on your computer, focusing on identifying `<mapname>.cfg` files and any `point_servercommand` and `logic_autos` within them.
 
 ## Background
-In Source2 engine for CS2, there are two methods that maps may executing commands on a server:
+In Source2 engine for CS2, there are two methods that maps may use to execute commands on a server:
 
 1. **Map CFG**: Executed on map load.
 2. **point_servercommand and logic_auto**: Typically executed on round start.
